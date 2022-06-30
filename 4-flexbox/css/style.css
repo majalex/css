@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+#container{
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.row{
+    height: 33%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+.gray{
+    background-color: gray;
+}
+.pink{
+    background-color: pink;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+}
+.two{
+    background-color: gray;
+}
+.three{
+    background-color: purple;
+}
+.four{
+    background-color: green;
+}
+.five{
+    background-color: red;
+}
+.six{
+    background-color: blue;
+}
+.seven{
+    background-color: orange;
+}
+.eight{
+    background-color: yellow;
+}
+.nine{
+    background-color: black;
+}
