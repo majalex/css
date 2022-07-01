@@ -1,3 +1,4 @@
+/* STYLE GLOBALNE */
 * {
 	box-sizing: border-box;
     margin: 0;
@@ -44,13 +45,7 @@ section{
     font-weight: 400;
     width: 100%;
 }
-/* header styles */
-span{
-    width: 10px;
-    height: 10px;
-    font-size: 50px;
-    
-}
+/* STYLE NAGŁÓWKA */
 .main-header{
     height: 70vh;
     background-image: url(../img/header.jpg);
@@ -78,7 +73,7 @@ span{
     color: #007bff;
 }
 
-/* nav styles */
+/* STYLE NAWIGACJI */
 label[for="drop-nav"]{
     display: none;
 }
@@ -107,7 +102,7 @@ label[for="drop-nav"]{
     color: #007bff;
     background-color: #fff;
 }
-/* About secttion */
+/* STYLE SEKCJI 1*/
 .about-img{
     border-radius: 50%;
 }
@@ -120,7 +115,7 @@ label[for="drop-nav"]{
     color: #777;
     line-height: 1.4;
 }
-/* portfolio section */
+/* STYLE SEKCJI 2*/
 .portfolio{
     background-color: #f2f1ed;
 }
@@ -159,8 +154,8 @@ label[for="drop-nav"]{
 .portfolio-wrapper .portfolio-item h3:hover{
     opacity: 1;
 }
-/* contact section */
 
+/* STYLE SEKCJI 3 */
 .contact form{
     max-width: 700px;
     margin: 40px auto 30px auto;
@@ -194,7 +189,8 @@ label[for="drop-nav"]{
 .social-links .social-link:hover{
     color: #777;
 }
-/* main footer styles */
+
+/* STYLE STOPKI */
 .main-footer{
     background-color: #f2f1ed;
     padding: 30px;
@@ -202,7 +198,7 @@ label[for="drop-nav"]{
     color: #777;
 }
 
-/* rsponsive styles */
+/* STYLE RESPONSYWNE */
 @media (max-width: 1200px){
     .container{
         max-width: 992px;
