@@ -47,6 +47,7 @@ section{
 }
 /* STYLE NAGŁÓWKA */
 .main-header{
+    padding-top: 30px;
     height: 70vh;
     background-image: url(../img/header.jpg);
     background-size: cover;
@@ -149,7 +150,7 @@ label[for="drop-nav"]{
     font-weight: 300;
     font-size: 3em;
     opacity: 0;
-    transition: all 0.3;
+    transition: all 0.3s;
 }
 .portfolio-wrapper .portfolio-item h3:hover{
     opacity: 1;
